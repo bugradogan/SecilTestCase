@@ -19,11 +19,8 @@ namespace SecilTestCase.Controllers
 
         public IActionResult Index()
         {
-            ConfigurationReader configurationReader = new ConfigurationReader("SecilTestCase", "mongodb://localhost:27017/", 6000);
-            var value = configurationReader.GetAllConfigurationItems();
-            var value2 = configurationReader.GetValue<Object>("IsBasketEnabled");
-            Console.WriteLine(value2.ToString());
-            Console.WriteLine(Assembly.GetExecutingAssembly().GetName().Name);
+            ConfigurationReader configurationReader = new ConfigurationReader("SecilTestCase", "mongodb://localhost:27017/", 10000);
+            var value = configurationReader.GetAllConfigurationItems();           
             return View(value);
 
         }
