@@ -786,11 +786,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects\\SecilTestCase\\SecilTestCase\\SecilTestCase.csproj",
+      "projectUniqueName": "E:\\SecilTestCase\\SecilTestCase\\SecilTestCase.csproj",
       "projectName": "SecilTestCase",
-      "projectPath": "E:\\Projects\\SecilTestCase\\SecilTestCase\\SecilTestCase.csproj",
+      "projectPath": "E:\\SecilTestCase\\SecilTestCase\\SecilTestCase.csproj",
       "packagesPath": "C:\\Users\\BUGRA\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects\\SecilTestCase\\SecilTestCase\\obj\\",
+      "outputPath": "E:\\SecilTestCase\\SecilTestCase\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\BUGRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
